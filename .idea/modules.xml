@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/different-tasks.iml" filepath="$PROJECT_DIR$/.idea/modules/different-tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/different-tasks_main.iml" filepath="$PROJECT_DIR$/.idea/modules/different-tasks_main.iml" group="different-tasks" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/different-tasks_test.iml" filepath="$PROJECT_DIR$/.idea/modules/different-tasks_test.iml" group="different-tasks" />
+    </modules>
+  </component>
+</project>

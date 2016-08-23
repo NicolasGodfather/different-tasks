@@ -16,7 +16,7 @@ import java.util.ArrayList;
  *            элементы 2-го списка в 1-ый, а далее принцип схож.
 */
 
-public class Merge2List{
+public class Merge2List {
 
     static volatile ArrayList<String> A = new ArrayList<>();
     static volatile ArrayList<String> B = new ArrayList<>();

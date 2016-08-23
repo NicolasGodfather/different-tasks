@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class PersonsStore {
 
-    public static final String FILE_WIRH_PERSONS = "store/names.txt";
+    public static final String FILE_WITH_PERSONS = "store/names.txt";
     public static final String CHARSET_NAME = "UTF-8";
     private boolean error;
     private List<Person> persons;
@@ -17,8 +17,8 @@ public class PersonsStore {
     private List<Person> readPersons() throws IOException {
 
         List<Person> persons = new ArrayList<>();
-        try (FileInputStream fileIntputStream = new FileInputStream(FILE_WIRH_PERSONS);
-             InputStreamReader inputStreamReader = new InputStreamReader(fileIntputStream, CHARSET_NAME);
+        try (FileInputStream fileInputStream = new FileInputStream(FILE_WITH_PERSONS);
+             InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, CHARSET_NAME);
              BufferedReader reader = new BufferedReader(inputStreamReader);) {
             String line;
             while ((line = reader.readLine()) != null) {
